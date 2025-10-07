@@ -15,3 +15,20 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # inventory_app
+
+### 1. Clona el proyecto
+
+```bash
+git clone <URL-del-repositorio>
+```
+
+### 2. Instalar paquetes
+```bash
+flutter pub get
+```
+
+### 3. Ejecutar
+```bash
+flutter run
+```
+

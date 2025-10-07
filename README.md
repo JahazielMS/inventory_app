@@ -14,6 +14,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+> **Nota:**  
+> En el archivo `.env`, en el valor de la variable `BASE_URL`, debe ir la IP del equipo donde se ejecuta el contenedor, por ejemplo: [http://192.168.1.81:4000/api](http://192.168.1.81:4000/api).  
+> Asegúrate de que todos los dispositivos estén conectados a la misma red si es un entorno local.
+
 # inventory_app
 
 ### 1. Clona el proyecto
@@ -31,6 +35,3 @@ flutter pub get
 ```bash
 flutter run
 ```
-
-En el archivo .env en el valor de la variables BASE_URL debe ir la IP del equipo donde se ejecuta el contenedor, ej: [http://192.168.1.81:4000/api](http://192.168.1.81:4000/api)
-deben estar conectados en la misma red si es local.

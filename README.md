@@ -32,5 +32,5 @@ flutter pub get
 flutter run
 ```
 
-En el archivo .env en el valor de la variables BASE_URL debe ir la IP del equipo donde se ejecuta el contenedor, ej: [http://192.168.1.81](http://192.168.1.81:4000/api)
+En el archivo .env en el valor de la variables BASE_URL debe ir la IP del equipo donde se ejecuta el contenedor, ej: [http://192.168.1.81:4000/api](http://192.168.1.81:4000/api)
 deben estar conectados en la misma red si es local.
